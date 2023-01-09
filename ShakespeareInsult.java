@@ -16,19 +16,18 @@ import java.util.ArrayList;
 
 public class ShakespeareInsult
 {
-
+  // Declare three ArrayLists of Strings to hold the words
+  
   
   /** Constructor gets insulting words from files  */
   public ShakespeareInsult()
   {
-    // Initialize the ArrayLists for words
+    // Initialize the ArrayLists for words and read the words from the files
     
-    // Read the words from the files
-
   }
   
-  // Reads NUM_WORDS words from a file (one word per line).
-  // Stores the words in the String array wordList.
+  // Reads words from a file (one word per line).
+  // Stores the words in the String ArrayList wordList.
   // If the file doesn't exist, exits the program with an error message.
   private ArrayList<String> readFile (String fileName)
   {
